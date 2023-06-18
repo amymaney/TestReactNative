@@ -1,5 +1,12 @@
-import { Text } from "react-native";
+import { Text, View} from "react-native";
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export default function Home() {
-  return <Text>Home page</Text>;
+  return (
+    <SafeAreaProvider>
+      <View>
+
+      </View>
+    </SafeAreaProvider>
+  )
 }
